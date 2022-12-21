@@ -1,0 +1,21 @@
+{
+    "name": "Leetcode Premium Unlocker",
+    "version": "0.1.0",
+    "description": "Unlock Leetcode premium features",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "dist/index.html"
+    },
+    "manifest_version": 3, 
+    "content_scripts": [
+        {
+          "js": ["/dist/main.js"],
+          "matches": [
+            "https://leetcode.com/*"
+          ]
+        }
+      ], 
+    "icons": {
+      "96": "/assets/logo.png"
+    }
+}
