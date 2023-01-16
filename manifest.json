@@ -2,7 +2,7 @@
     "name": "Leetcode Premium Unlocker",
     "version": "0.1.0",
     "description": "Unlock Leetcode premium features",
-    "permissions": ["activeTab", "https://sheets.googleapis.com/v4/spreadsheets*"],
+    "permissions": ["https://sheets.googleapis.com/v4/spreadsheets*"],
     "browser_action": {
       "default_popup": "dist/index.html"
     },
