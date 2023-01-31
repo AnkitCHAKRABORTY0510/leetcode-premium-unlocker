@@ -1,7 +1,7 @@
 {
     "name": "Leetcode Premium Unlocker",
-    "version": "0.2.0",
-    "description": "Unlock Leetcode premium features",
+    "version": "0.3.0",
+    "description": "Inject crowdsourced Leetcode premium data",
     "permissions": [],
     "action": {
       "default_popup": "dist/index.html"
