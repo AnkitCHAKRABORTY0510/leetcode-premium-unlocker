@@ -1,6 +1,6 @@
 {
     "name": "Leetcode Premium Unlocker",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "Inject crowdsourced Leetcode premium data",
     "permissions": ["https://sheets.googleapis.com/v4/spreadsheets*"],
     "browser_action": {
@@ -9,6 +9,7 @@
     "manifest_version": 2, 
     "content_scripts": [
         {
+          "css": ["dist/style.css"], 
           "js": ["/dist/main.js"],
           "matches": [
             "https://leetcode.com/*"
